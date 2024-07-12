@@ -1,0 +1,55 @@
+#parentform{
+    background-image: url(background-gradient-lights.jpg);
+    background-size: cover;
+    border: 1.5px solid rgb(1, 1, 15);
+    display: flex;
+    justify-content: center;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 20px;
+    margin-top: 12rem;
+
+}
+
+
+#parentsignup{
+    background-image: url(background-gradient-lights.jpg);
+    background-size: cover;
+    border: 1.5px solid rgb(1, 1, 15);
+    display: flex;
+    justify-content: center;
+    height: 22rem;
+    width: 18rem;
+    border-radius: 20px;
+    margin-top: 12rem;
+
+}
+
+
+
+
+h1{
+    margin-left: 5rem;
+    color: aliceblue;
+}
+
+label{
+    color: aliceblue;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(blurred-chairs-tables.jpg);
+    background-size: cover;
+
+    /* background-color: rgb(4, 133, 133); */
+}
+button{
+    width: 15rem;
+
+}
+
+button:hover{
+    background-color: rgb(228, 226, 229);
+}
