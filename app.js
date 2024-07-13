@@ -1,14 +1,15 @@
 // alert("Umar")
 // console.log(alert);
 
-const allUsers={name:"Ali", email:"abc@gmail.com"};
-console.log(personObj);
+const allUsers={name:"Ali", email:"abc@gmail.com", userPassword: 'abc'};
 
-const userName = document.getElementById("name").value;
+const signup = document.getElementById('signupBtn');
 
-const userEmail = document.getElementById("email").value;
+signup.addEventListener('click', (e) => {
+  e.preventDefault();
+  allUsers.name = document.getElementById("name").value;
+  allUsers.email = document.getElementById("email").value;
+  allUsers.userPassword = document.getElementById("password").value;
 
-const userPassword = document.getElementById("password").value;
-
-const allUsers=JSON.parse(localStorage.getItem("users"))
-
+  localStorage.setItem('users': users);
+}
